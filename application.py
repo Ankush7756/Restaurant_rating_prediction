@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import pandas as pd
 import pickle
 import sklearn
-#updated for work
+#updated 
 file = open("artifacts/rate_predict.pkl", "rb")
 model = pickle.load(file)
 
